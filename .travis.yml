@@ -7,13 +7,8 @@ install:
   - bash ./scripts/install-hugo.sh
 
 scrpit:
-<<<<<<< HEAD
   - hugo
-=======
-  - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
-  - hugo --theme beautifulhugo
->>>>>>> a258d56c455fbdb017595e286e71bc682fc0ac35
-
+  
 deploy:
   provider: pagess
   skip_cleanup: true
