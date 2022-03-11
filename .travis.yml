@@ -4,7 +4,6 @@ go:
 
 install:
   - git clone --branch master --depth 1 https://github.com/gohugoio/hugo.git hugo
-  - go clean -modcache && go install -ldflags 'all=-w -extldflags "-static"' -tags extended
 
 scrpit:
   - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
