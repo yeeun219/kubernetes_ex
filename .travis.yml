@@ -4,7 +4,6 @@ go:
 
 install:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.94.0/hugo_0.94.0_Linux-64bit.tar.gz
-  - tar -xf hugo_0.78.2_macOS-64bit.tar.gz
 
 scrpit:
   - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
