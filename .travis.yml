@@ -3,7 +3,8 @@ go:
   - 1.11.x
 
 install:
-  - git clone --branch master --depth 1 https://github.com/gohugoio/hugo.git hugo
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_extended_0.78.2_macOS-64bit.tar.gz
+  - tar -xf hugo_0.78.2_macOS-64bit.tar.gz
 
 scrpit:
   - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
