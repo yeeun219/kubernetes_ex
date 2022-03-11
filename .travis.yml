@@ -12,7 +12,7 @@ scrpit:
 deploy:
   provider: pages
   skip_cleanup: true
-  Github_token: $Github_token
+  Github_token: $GITHUB_TOKEN
   local_dir: public
   on:
     branch: master
