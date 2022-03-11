@@ -3,7 +3,7 @@ go:
   - 1.11.x
 
 install:
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_extended_0.78.2_macOS-64bit.tar.gz
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.94.0/hugo_0.94.0_Linux-64bit.tar.gz
   - tar -xf hugo_0.78.2_macOS-64bit.tar.gz
 
 scrpit:
