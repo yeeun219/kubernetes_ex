@@ -3,7 +3,7 @@ go:
   - 1.11.x
 
 install:
-  - go get Github.com/gohugoio/hugo
+  - go get -u Github.com/gohugoio/hugo
 
 scrpit:
   - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
