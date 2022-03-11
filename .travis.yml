@@ -3,14 +3,14 @@ go:
   - 1.11.x
 
 install:
-  - go get Github.com/gohugoio/hugo
+  - export PATH=$PATH:$HOME/bin
+  - bash ./scripts/install-hugo.sh
 
 scrpit:
-  - mkdir -p themes/beautifulhugo && git clone https://Github.com/halogenica/beautifulhugo.git themes/beautifulhugo
-  - hugo --theme beautifulhugo
+  - hugo
 
 deploy:
-  provider: pages
+  provider: pagess
   skip_cleanup: true
   Github_token: $Github_token
   local_dir: public
